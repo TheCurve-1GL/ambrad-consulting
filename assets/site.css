@@ -295,3 +295,6 @@ body.water .also, body.water .rel:hover{border-color:var(--line)}
 body.water .hero h1 span{color:#7FD1D6}
 body.water .nav .btn{background:#0F2A44;border-color:#0F2A44;color:#fff}
 body.water .nav .btn:hover{background:transparent;color:var(--fg)}
+.dd-panel .dd-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);padding:12px 12px 4px}
+.dd-panel .dd-label:first-child{padding-top:6px}
+.dd-panel{max-height:calc(100vh - 120px);overflow:auto}
